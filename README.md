@@ -17,7 +17,7 @@ To use the YouTube Timestamp Bookmark Extension, follow these steps:
 1. **Clone or Download the Repository:**
    - Clone the repository: 
      ```bash
-     git clone https://github.com/yourusername/youtube-timestamp-bookmark.git
+     git clone https://github.com/vaishnaviprakash12/TimeMark.git
      ```
    - Or download the ZIP file and extract it.
 
