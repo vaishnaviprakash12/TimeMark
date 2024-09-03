@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 10px;
+    width: 400px;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #bookmarkText {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  #bookmarkBtn {
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  #bookmarkList {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .bookmark-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .bookmark-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .text-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .bookmark-title {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    max-width: 260px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .bookmark-time {
+    font-size: 12px;
+    color: #777;
+  }
+  .edit-btn, .delete-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .edit-btn {
+    background-color: #FFA500; /* Orange for edit button */
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #FF0000; /* Red for delete button */
+    color: white;
+  }
+  
