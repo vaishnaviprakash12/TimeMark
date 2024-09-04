@@ -47,17 +47,3 @@ To use the YouTube Timestamp Bookmark Extension, follow these steps:
    - To edit a bookmark, click the edit icon next to the bookmark and modify the custom text.
    - To delete a bookmark, click the delete icon next to the bookmark.
 
-## Project Structure
-
-```bash
-youtube-timestamp-bookmark/
-│
-├── icons/
-│   ├── youtube.png
-│   ├── youtube - Copy.png
-│   └── bookmark.png
-│
-├── manifest.json
-├── popup.html
-├── popup.js
-└── style.css
